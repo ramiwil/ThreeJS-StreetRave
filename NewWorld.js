@@ -3,7 +3,7 @@ import { OBJLoader } from './three/examples/jsm/loaders/OBJLoader.js'
 import { MTLLoader } from './three/examples/jsm/loaders/MTLLoader.js'
 import { RectAreaLightHelper } from './three/examples/jsm/helpers/RectAreaLightHelper.js';
 import { RectAreaLightUniformsLib } from './three/examples/jsm/lights/RectAreaLightUniformsLib.js';
-import { Vector3 } from 'three';
+import { Vector3 } from './three/src/math/Vector3.js';
 import { GLTFLoader } from './three/examples/jsm/loaders/GLTFLoader.js'
 import { SpotLightHelper } from 'three';
 
